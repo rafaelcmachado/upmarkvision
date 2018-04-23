@@ -3,7 +3,7 @@
 session_start();
 // as variáveis login e senha recebem os dados digitados na página anterior
 $login = $_POST['login'];
-$senha = $_POST['senha'];
+$senha = md5($_POST['senha']);
 // as próximas 3 linhas são responsáveis em se conectar com o bando de dados.
 $con = new mysqli("upmarkvision.com.br", "upmarkvi_root", "machado123", "upmarkvi_markprin");
 
