@@ -10,7 +10,10 @@
 
     <title>System UPMarkVision</title>
 
-    <link rel="icon" type="<?php echo BASEURL; ?>image/png" href="img/logo.png"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+    <link rel="icon" type="image/png" href="<?php echo BASEURL; ?>img/logo.png"/>
     <!-- Bootstrap core CSS -->
     <link href="<?php echo BASEURL; ?>css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
